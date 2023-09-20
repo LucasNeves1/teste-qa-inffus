@@ -1,0 +1,273 @@
+:root {
+    --main-blue: #277ecc;
+}
+
+.title {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    padding:0 20%;
+}
+
+b {
+    font-weight: 700;
+    color: var(--main-blue);
+}
+
+.p-25 {
+    padding: 0 20%;
+}
+
+.big {
+    font-size: 3rem;
+}
+
+.bg-fade-out {
+    background: linear-gradient(180deg, #0b1729 0%, #11213b 50%, #0b1729 100%);
+}
+
+.bg-orange-dark {
+    background-color: #0b1729;
+}
+
+.bg-orange-clean {
+    background-color: #0b1729;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 765px) {
+    .title, .p-25 {
+        padding: 0px;
+    }
+
+    .bg-orange-clean {
+        padding: 35px 15px;
+    }
+
+    header img {
+        width: 250px;
+    }
+}
+
+.common-button {
+    border-radius: 20px;
+    background-color: var(--main-blue);
+    padding: 7.5px 25px 8.5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-padding {
+    padding: 100px 10px;
+}
+
+.form-control {
+    border-radius: 15px;
+    background-color: white;
+    color: #19568a;
+    margin: 15px 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.form-control::placeholder {
+    color: #19568a;
+}
+
+form {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 100%;
+}
+
+.lista-graph {
+    list-style: none;
+}
+
+.lista-graph b {
+    color: var(--main-blue);
+    text-decoration: underline;
+}
+
+.lista-graph li {
+    margin-bottom: 30px;
+}
+
+ul.lista-graph li {
+    position:relative; /* so that pseudoelements are positioned relatively to their "li"s*/
+    /* use padding-bottom instead of margin-bottom.*/ 
+    margin-bottom: 0; /* This overrides previously specified margin-bottom */
+    padding-bottom: 2.5em;
+}
+
+@media only screen and (max-width: 768px) {
+    ul.lista-graph li {
+        padding-bottom: 0.5em;
+    }
+}
+
+ul.lista-graph li:after {
+    content: ".";
+    color: var(--main-blue);
+    position: absolute;
+    left: -31px; /*adjust manually*/
+    top: -137px;
+    font-size: 140px;
+}
+
+ul.lista-graph li:before {
+    /* lines */
+    content:"";
+    position: absolute;
+    left: -16px; /* adjust manually */
+    border-left: 1px solid var(--main-blue);
+    height: 100%;
+    width: 1px;
+}
+
+ul.lista-graph li:last-child {
+    padding-bottom: 0px;
+}
+
+ul.lista-graph li:first-child:before {
+   /* first li's line */
+   top: 6px; /* moves the line down so that it disappears under the bullet. Adjust manually */
+}
+
+ul.lista-graph li:last-child:before {
+    /* last li's line */
+   height: 6px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+}
+
+.card-progress {
+    border: 2px solid var(--main-blue);
+    padding: 40px 30px 60px 30px;
+    border-radius: 20px;
+}
+
+.card-progress span {
+    background-color: var(--main-blue);
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 60px;
+    bottom: -27.5px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+.progress {
+    border: 1px solid var(--main-blue);
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.progress-bar {
+    background-color: var(--main-blue);
+    color: transparent;
+}
+
+.card-diferencial {
+    background-color: #1A2C48;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.accordion, .accordion-item {
+    background-color: transparent;
+    border-color: transparent !important;
+}
+
+.accordion-button, .accordion-body {
+    background-color: #1A2C48 !important;
+    color: white !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.accordion-button.collapsed {
+    border-radius: 15px !important;
+}
+
+.accordion-button {
+    border-radius: 15px 15px 0px 0px !important;
+}
+
+.accordion-body {
+    padding: 0px 1.25rem 1rem 1.25rem;
+    border-radius: 0px 0px 15px 15px !important;
+}
+
+.accordion-collapse {
+    border-radius: 0px !important;
+}
+  
+.accordion-button.collapsed::after, .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+.logos-clientes {
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+ul.list-equipe {
+    list-style: none; /* Remove default bullets */
+  }
+  
+ul.list-equipe li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--main-blue); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ul.list-sobre {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+ul.list-sobre li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white;
+    justify-content: center;
+}
+
+ul.list-sobre li:before {
+    content: "";
+    display: inline-block;
+    min-width: 23px;
+    width: 23px;
+    height: 23px;
+    margin-right: 7.5px;
+    background-image: url("/check-icon-01.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 765px) {
+    .logos-clientes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Camada_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 54.8 47.1"
+	 style="enable-background:new 0 0 54.8 47.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{clip-path:url(#SVGID_00000129205251606647851050000011229463287613274267_);fill:#FFFFFF;}
+	.st2{clip-path:url(#SVGID_00000154395075465635104640000015032337026318616961_);fill:#FFFFFF;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{opacity:0.8;}
+	.st5{opacity:0.4;clip-path:url(#SVGID_00000076605628878205201240000006489116606963926148_);}
+	.st6{clip-path:url(#SVGID_00000012473525293439061520000000873739508429616540_);fill:#FFFFFF;}
+	.st7{clip-path:url(#SVGID_00000026863854031967135620000001919133631898582401_);fill:#FFFFFF;}
+	.st8{clip-path:url(#SVGID_00000152240564046417155720000015113210977502750633_);fill:#FFFFFF;}
+	.st9{clip-path:url(#SVGID_00000026134223775221013850000005886239160660285861_);fill:#FFFFFF;}
+	.st10{clip-path:url(#SVGID_00000019636012546948079330000012464635049610937498_);fill:#FFFFFF;}
+	.st11{clip-path:url(#SVGID_00000143590524612875162080000006737302899318202296_);fill:#FFFFFF;}
+	.st12{clip-path:url(#SVGID_00000116194210717020326040000011443397081293819819_);fill:#FFFFFF;}
+	.st13{clip-path:url(#SVGID_00000098941602737169829960000007113153048323508409_);fill:#FFFFFF;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="280.2" width="1017.9" x="-2419.2" y="3433.6"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<path class="st0" d="M26.3,0v11.1H15.2C15.7,5.2,20.4,0.5,26.3,0"/>
+	<path class="st0" d="M39.6,11.1H28.8V0C34.5,0.7,39.1,5.3,39.6,11.1"/>
+	<path class="st0" d="M39.5,13.5c-0.6,5.7-5.1,10.2-10.8,10.8V13.5H39.5z"/>
+	<path class="st0" d="M26.3,13.5v10.8c-5.8-0.5-10.4-5.1-11-10.8H26.3z"/>
+	<polygon class="st0" points="28.8,0 28.8,0 28.7,0 	"/>
+	<path class="st0" d="M0,30.7l0,12.8c0,0,0,2.2,1.9,3.2c1.9,1.1,4.1-0.4,4.2-0.5c0.5-0.6,0.9-1.3,1-2.4c0.1-1.1,0-13.1,0-13.1H4.9
+		L4.8,43.6c0,0-0.1,1-1,1.1c-1,0-1.4-0.9-1.4-0.9L2.4,30.7L0,30.7L0,30.7z"/>
+	<polygon class="st0" points="8.1,46.8 9.5,30.7 12.4,30.7 14.1,40.3 15,30.7 17.1,30.7 15.7,46.8 13.3,46.8 11.3,35.1 10.3,46.8 	
+		"/>
+	<polygon class="st0" points="18.9,30.7 21.2,30.7 19.9,46.8 17.5,46.8 	"/>
+	<polygon class="st0" points="22.7,46.9 22.7,30.6 26,30.6 27.8,42.2 29.5,30.6 32.8,30.6 32.8,46.9 30.6,46.9 30.5,35.2 28.8,46.9 
+		26.6,46.9 24.8,35.4 24.7,46.9 	"/>
+	<path class="st0" d="M40.6,30.6h-3.5l-3.8,16.3h2.2l0.6-3l3,0l0.2,2.9h2.4L40.6,30.6z M39,41.8h-2.4l1.9-8.2L39,41.8z"/>
+	<polygon class="st0" points="42.8,46.9 44.2,30.6 46.6,30.6 45.2,46.9 	"/>
+	<path class="st0" d="M47,42.1h2.3l-0.1,1.6c0,0,0.2,0.9,0.7,1c0.6,0.1,0.9,0,0.9,0s0.3,0,0.7-0.5c0.4-0.6,0.3-1.4,0.3-1.4l0-0.5
+		c0,0-0.2-0.8-0.7-1.4c-0.5-0.6-1.6-1.8-1.6-1.8s-0.4-0.4-1.1-1.5c-0.7-1.1-0.6-3-0.6-3s0.2-1.7,0.7-2.5c0.5-0.8,1.2-1.2,2-1.5
+		c0.7-0.2,1.7-0.1,2.2-0.1c0.5,0.1,1,0.4,1.6,1.1c0.6,0.7,0.6,2.1,0.6,2.1l-0.1,1.3l-2.2,0l0-1.4c0,0,0-0.6-0.7-0.9l-0.7,0
+		c0,0-0.5,0-0.9,0.8c-0.4,0.8,0,2.2,0,2.2s0.8,1.5,1.4,1.9c0,0,0.4,0.4,1.1,1.1c0.6,0.8,0.6,0.8,1,1.7c0.4,0.8,0.4,2,0.4,2
+		s0,1.4-0.4,2.4c-0.4,1-0.9,1.3-0.9,1.3s-0.4,0.4-0.8,0.5c-0.4,0.1-0.2,0.2-1.6,0.4c-1.4,0.2-2.4-0.6-2.4-0.6s-0.6-0.3-1-1.4
+		c0,0-0.1-0.8-0.2-1.1L47,42.1z"/>
+</g>
+</svg>
